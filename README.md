@@ -1,4 +1,5 @@
-# TEALS GitHub Codespaces for Ephrata High School
+# Codespaces, Content, and Container Repo for Ephrata High School AP Computer Science Java Course
+
 ## Creates a Development Container for Java on GitHub Codespaces
 
 These instructions will guide you through the process of setting up Codespaces, an online IDE. _IDE_ stands for _Integrated Development Environment_, which is a program that software developers use to write code. You can use any text editor to write code, but an IDE makes it _much_ easier.
@@ -9,58 +10,66 @@ Think of Codespaces like Microsoft Word for code. You can write a really long es
 
 Create a GitHub account. GitHub is a free service that stores code for you in the cloud. It is the industry standard for storing and sharing software code. Think of it like Google Drive for code!
 
-For your username, `<firstname>-<lastinitial>-ephrata-teals` format. So, if your name was Jane Doe, your username would be `jane-d-ephrata-teals`.
+For your username you can pick any available username, or something like: `<firstname>-<lastinitial>-ephrata-teals` format. So, if your name was Jane Doe, your username would be `jane-d-ephrata-teals`.
 
-  1. In a new tab in Chrome, go to https://github.com
+  1. In a new tab in your browser, go to https://github.com
   2. Click "Sign up" in the top right corner
-  3. Enter your username in the `<firstname>-<lastinitial>-ephrata-teals` format
+  3. Enter your username (one of your choice available) or in the `<firstname>-<lastinitial>-ephrata-teals` format
   4. Enter your `@ephrataschools.org` email
   5. Choose a password
   6. Solve the verification puzzle
   7. Click "Create account"
-  8. In a new tab in Chrome, go to GMail. You should see an email from Github asking you to verify your email address
+  8. In a new tab in your browser, go to the Ephrata High School GMail. You should see an email from Github asking you to verify your email address
   9. Open the email and click "Verify email address"
   
-### Fork the EphrataTEALS repository
+### Fork the Tiger22 GitHub Repository
 
 In this step you'll be copying an existing Github _repository_ to your own account. You can think of a repository as a special kind of folder for code. It's actually much more complicated (and powerful) than that, but you'll learn about all of that another time.
 
-  1. In a new tab in Chrome, go to https://github.com/DataSnowman/ephrataTEALS2021
+  1. In a new tab in your browser, go to https://github.com/EphrataTEALS/Tiger22 
+  
   2. Click on "Fork" in the top right corner
 
-        ![fork](https://raw.githubusercontent.com/DataSnowman/ephrataTEALS2021/main/images/fork.png)
+        ![fork](https://raw.githubusercontent.com/EphrataTEALS/Tiger22/main/images/fork.png)
         
-  3. If you are asked "Where should we fork EphrataTEALS?", click on your new Github username
+  3. If you are asked "Where should we fork Tiger22?", click on your new Github username
 
-        ![forkdest](https://raw.githubusercontent.com/DataSnowman/ephrataTEALS2021/main/images/forkdest.png)
+        ![forkdest](https://raw.githubusercontent.com/EphrataTEALS/Tiger22/main/images/forkdest.png)
 
-You now have a copy of the EphrataTEALS repository in your GitHub. This is what you should see:
+You now have a copy of the Tiger22 repository in your GitHub. This is what you should see:
 
-![yourcopy](https://raw.githubusercontent.com/DataSnowman/ephrataTEALS2021/main/images/yourcopy.png)
+![yourcopy](https://raw.githubusercontent.com/EphrataTEALS/Tiger22/main/images/yourcopy.png)
 
-My username was darsch so the repository shows up as `darsh/ephrataTEALS2021`.
+My username was tealsteacher so the repository shows up as `tealsteacher/Tiger22`.
 
-Yours should be `<firstname>-<lastinitial>-ephrata-teals/ephrataTEALS2021`.
+Yours should be `<yourusername>/Tiger22`.
 
-**Configure Codespaces and GitHub settings and remote for fork**
+**Configure Codespaces**
 
-Click on Code and select `Open with Codespaces`
+Click on Code and select `Codespaces`
 
-![openWithCodespaces](https://raw.githubusercontent.com/DataSnowman/ephrataTEALS2021/main/images/openWithCodespaces.png)
+![openWithCodespaces](https://raw.githubusercontent.com/EphrataTEALS/Tiger22/main/images/openWithCodespaces.png)
 
-Click on `+ New codespace on current branch`
+Click on `New codespace`
 
-![newCodespace](https://raw.githubusercontent.com/DataSnowman/ephrataTEALS2021/main/images/newCodespace.png)
+![newCodespace](https://raw.githubusercontent.com/EphrataTEALS/Tiger22/main/images/newCodespace.png)
+
+Select a Machine Type.  Recommend a 4-core 8GB RAM
+Click on Create codespace
+
+![machinetype](https://raw.githubusercontent.com/EphrataTEALS/Tiger22/main/images/machinetypeb.png)
 
 When the Codespace opens it should look something like this
 
-![yourCodespace](https://raw.githubusercontent.com/DataSnowman/ephrataTEALS2021/main/images/yourCodespace.png)
+![yourCodespace](https://raw.githubusercontent.com/EphrataTEALS/Tiger22/main/images/yourCodespace.png)
+
+**Configure GitHub settings and remote for fork**
 
 This step will involve entering some commands into the terminal, or command line. If this if the first time you've used a terminal, it can be intimidating. Don't worry! Just follow the directions and copy and paste the commands exactly. When an instruction says to _enter_ a command, it means to type (or paste) the command, and then press the Enter key to execute it.
 
   1. Open a terminal in your Codspace using the keyboard shortcut ``Ctrl + ` `` (you can also go to the menu in the top left and select Terminal > New Terminal) 
        
-       ![terminalMenu](https://raw.githubusercontent.com/DataSnowman/ephrataTEALS2021/main/images/terminalMenu.png)
+       ![terminalMenu](https://raw.githubusercontent.com/EphrataTEALS/Tiger22/main/images/terminalMenu.png)
 
   Make sure it is a bash shell
 
@@ -78,7 +87,7 @@ git status
 
   Your terminal should now look like the following, except it will say "ephrataTEALS2021" instead of "TEALS1":
 
-  ![terminalOutput](https://raw.githubusercontent.com/DataSnowman/ephrataTEALS2021/main/images/terminalOutput.png)
+  ![terminalOutput](https://raw.githubusercontent.com/EphrataTEALS/Tiger22/main/images/terminalOutput.png)
 
   4. Enter the following command, replacing `<GitHubusername>` with the `<firstname>-<lastinitial>-ephrata-teals` username you created earlier:
 
@@ -165,12 +174,12 @@ public class CodespacesBeta {
   2. Codespaces may automatically open some other tabs. If this happens, just close them and return to `CodespacesBeta.java`.
   3. On the sidebar, click the "Run" button (the one with the play button and the little bug):
 
-   ![run](https://raw.githubusercontent.com/DataSnowman/ephrataTEALS2021/main/images/run.png)
+   ![run](https://raw.githubusercontent.com/EphrataTEALS/Tiger22/main/images/run.png)
 
   3. Click "Run and Debug". Again, Codespaces may automatically open some other tabs. If this happens, close them and click "Run and Debug" again.
   4. You should see the following output in the terminal:
 
-  ![terminal](https://raw.githubusercontent.com/DataSnowman/ephrataTEALS2021/main/images/terminal.png)
+  ![terminal](https://raw.githubusercontent.com/EphrataTEALS/Tiger22/main/images/terminal.png)
 
 Congratulations! You just ran your first program!
 
