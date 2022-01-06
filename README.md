@@ -54,10 +54,12 @@ Click on `New codespace`
 
 ![newCodespace](https://raw.githubusercontent.com/EphrataTEALS/Tiger22/main/images/newCodespace.png)
 
-Select a Machine Type.  Recommend a 4-core 8GB RAM
+Select a Machine Type.  
+Recommend a 4-core 8GB RAM
+
 Click on Create codespace
 
-![machinetype](https://raw.githubusercontent.com/EphrataTEALS/Tiger22/main/images/machinetypeb.png)
+![machinetype](https://raw.githubusercontent.com/EphrataTEALS/Tiger22/main/images/machinetype.png)
 
 When the Codespace opens it should look something like this
 
@@ -78,6 +80,7 @@ This step will involve entering some commands into the terminal, or command line
 ```
 pwd
 ```
+It should return the path which will be something like `/workspaces/Tiger22`
 
   3. Now enter the following command (remember, "entering" a command means typing or pasting it into the terminal, then pressing Enter to execute it):
 
@@ -85,11 +88,11 @@ pwd
 git status
 ```
 
-  Your terminal should now look like the following, except it will say "ephrataTEALS2021" instead of "TEALS1":
+  Your terminal should now look like the following:
 
   ![terminalOutput](https://raw.githubusercontent.com/EphrataTEALS/Tiger22/main/images/terminalOutput.png)
 
-  4. Enter the following command, replacing `<GitHubusername>` with the `<firstname>-<lastinitial>-ephrata-teals` username you created earlier:
+  4. Enter the following command, replacing `<GitHubusername>` with the your username you created earlier:
 
 ```
 git config --global user.name "<GitHubusername>"
@@ -122,10 +125,10 @@ git remote -v
   9. Make sure that your terminal displays the following:
 
 ```
-> origin    https://github.com/<firstname>-<lastinitial>-ephrata-teals/ephrataTEALS2021 (fetch)
-> origin    https://github.com/<firstname>-<lastinitial>-ephrata-teals/ephrataTEALS2021 (push)
-> upstream  https://github.com/DataSnowman/ephrataTEALS2021.git (fetch)
-> upstream  https://github.com/DataSnowman/ephrataTEALS2021.git (push)
+> origin    https://github.com/<yourusername>/Tiger22 (fetch)
+> origin    https://github.com/<yourusername>/Tiger22 (push)
+> upstream  https://github.com/EphrataTEALS/Tiger22.gitb (fetch)
+> upstream  https://github.com/EphrataTEALS/Tiger22.git (push)
 ```
 
   If this is the case go to step 12
@@ -133,15 +136,15 @@ git remote -v
 If it only shows the following:
 
 ```
-> origin  https://github.com/<firstname>-<lastinitial>-ephrata-teals/ephrataTEALS2021 (fetch)
-> origin  https://github.com/<firstname>-<lastinitial>-ephrata-teals/ephrataTEALS2021 (push)
+> origin  https://github.com/<yourusername>/Tiger22 (fetch)
+> origin  https://github.com/<yourusername>/Tiger22 (push)
 ```
 Then 
 
   10. Enter the following command as-is (_do not_ replace the username):
 
 ```
-git remote add upstream https://github.com/DataSnowman/ephrataTEALS2021.git
+git remote add upstream https://github.com/EphrataTEALS/Tiger22.git
 ```
 
   11. Enter the following command again:
@@ -158,7 +161,7 @@ git pull upstream main
 
 **Run your CodespacesBeta.java program!**
 
-  1. In `sampleCode >`, find `CodespacesBeta.java`.  The contents of the file should look like this:
+  1. In `sampleCode >`, find `CodespacesBeta.java` in the `GitHubCodespacesTest` folder.  The contents of the file should look like this:
 
 ```
 package sampleCode.GitHubCodespacesTest;
@@ -189,7 +192,7 @@ Congratulations! You just ran your first program!
   2. In `CodespacesBeta.java`, find the line that reads `package sampleCode.GitHubCodespacesTest;`
   3. Change sampleCode to studentWork so it reads `package studentWork.GitHubCodespacesTest;`
   4. In `CodespacesBeta.java`, find the line that reads `System.out.println("Welcome Back !!!");`
-  5. Replace `Welcome Back` with `Its a new school Year` (or anything, really! You could write `Happy School Year <your dog's name>` or `Time to get school supplies`)
+  5. Replace `Welcome Back` with `Its a New Year` (or anything, really! You could write `Happy New Year <your dog's name>` or `Time to get back to work`)
   6. Click the "Run and Debug" button again
   7. You should see the new greeting in the terminal. You just wrote your first piece of code!
   8. To save your work, enter the following sequence of commands in the terminal:
