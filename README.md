@@ -116,6 +116,14 @@ git config --global user.email "email@example.com"
 git config --global user.email
 ```
 
+If you prefer to use the UI in GitHub you can do this prior to opening you codespace.
+
+Click on `Fetch upstream` and then click on `Fetch and merge`
+
+![fetchupstream](https://raw.githubusercontent.com/EphrataTEALS/Tiger22/main/images/fetchupstream.png)
+
+To do this from the terminal
+
   8. Enter the following command:
 
 ```
