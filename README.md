@@ -135,7 +135,7 @@ git remote -v
 ```
 > origin    https://github.com/<yourusername>/Tiger22 (fetch)
 > origin    https://github.com/<yourusername>/Tiger22 (push)
-> upstream  https://github.com/EphrataTEALS/Tiger22.gitb (fetch)
+> upstream  https://github.com/EphrataTEALS/Tiger22.git (fetch)
 > upstream  https://github.com/EphrataTEALS/Tiger22.git (push)
 ```
 
@@ -161,7 +161,11 @@ git remote add upstream https://github.com/EphrataTEALS/Tiger22.git
 git remote -v
 ```
 
-  12. Finally, enter the following command:
+  12. Finally, enter the following commands:
+
+```
+git config pull.rebase false
+```
 
 ```
 git pull upstream main
@@ -213,7 +217,11 @@ git push origin main
 
 ### In future classes:
 
-At the beginning of each class, after opening your Codepsace, you will open a terminal window (with ``Ctrl + ` `` or using menu and going to Terminal > New Terminal). Then you will enter the following command:
+At the beginning of each class, after opening your Codepsace, you will open a terminal window (with ``Ctrl + ` `` or using menu and going to Terminal > New Terminal). Then you will enter the following commands:
+
+```
+git config pull.rebase false
+```
 
 ```
 git pull upstream main
