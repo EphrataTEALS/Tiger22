@@ -22,6 +22,11 @@ public class EphrataTemp {
         // Count and print out the number of days the tempature was below the average tempature
 
 
+
+
+        // Using a ForEach Loop Count and print out the number of days the tempature was above the average tempatureb
+
+
         
         
 
