@@ -61,6 +61,30 @@ public class DataStructure {
         }
 
         System.out.println("Sum with for: " + sum);
+
+         // babyGrowls array here and call countBabyGrowls Method
+        int[] babyGrowls = new int[43];
+        int growlCount = countBabyGrowls(babyGrowls);
+        System.out.println("Baby" + " growled " + growlCount + " times!");
+
     }
+
+
+    public static int countBabyGrowls(int[] arrayCount){
+
+        // for loop to intialize array
+        for (int i = 0; i < arrayCount.length; i++) {
+         arrayCount[i] = 1;
+       }
+ 
+       int count = 0;
+ 
+       //for each loop
+       for(int num: arrayCount){    
+           count = count + arrayCount[num];
+       }
+               return count;
+ 
+     }
 
 }
