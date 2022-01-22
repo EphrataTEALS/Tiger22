@@ -1,3 +1,5 @@
+package sampleCode.Arrays;
+
 public class EphrataTemp {
 
     public static void main(String[] args) {

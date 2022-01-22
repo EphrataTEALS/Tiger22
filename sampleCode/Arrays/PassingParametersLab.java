@@ -1,4 +1,4 @@
-//package sampleCode.Arrays;
+package sampleCode.Arrays;
 
 import java.util.Arrays;
 

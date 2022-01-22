@@ -1,3 +1,4 @@
+package sampleCode.ArrayTraversal;
 
 public class TraversalTests {
    public static void main(String[] args) {
