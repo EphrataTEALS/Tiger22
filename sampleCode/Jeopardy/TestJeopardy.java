@@ -1,5 +1,7 @@
 package sampleCode.Jeopardy;
 
+import java.util.*;
+
 public class TestJeopardy {
 
 public static void main(String[] args) {
@@ -61,8 +63,69 @@ public static void main(String[] args) {
     }
 
 System.out.println();
+int[] num = {3, 8, 92, -4, 9};
+getMin(num);
+
+int[] a1 = {1, 3, 5, 7, 9};
+int[] a2 = {1, 4, 9, 16, 25};
+mystery(a1, a2);
+System.out.println();
+System.out.println("a1 array is now: " + Arrays.toString(a1));
+
+
+
+System.out.println();
 System.out.println(mystery(0, 10));
+
+int[] numbers = {3, 7, 1, 0, 25, 4, 18, -1, 5};
+mystery3(numbers, 3, 1);
+System.out.println("numbers is now: " + Arrays.toString(numbers));
+
+
+int x = 15;
+sentence(x, 42);
+
+int[] nums = {14, 7};
+arrayMystery5(nums);
+System.out.println("nums is now: " + Arrays.toString(nums));
     
+}
+
+public static void arrayMystery5(int[] nums) {
+    for (int i = 0; i < nums.length - 1; i++) {
+        if (nums[i] > nums[i + 1]) {
+            nums[i + 1]++;
+        }
+    }
+}
+
+public static void sentence(int num1, int num2) {
+        System.out.println(num1 + " " + num2);
+
+}
+
+public static void mystery3(int[] data, int x, int y) {
+    data[data[x]] = data[y];
+    data[y] = x;
+}
+
+
+public static void getMin(int[] array) {
+    int min = array[0];
+    for (int i = 1; i < array.length; i++) {
+        int next = array[i];
+            if (next < min) {
+                min = next;
+            } 
+        }
+        System.out.println("min = " + min);
+}
+
+
+public static void mystery(int[] a, int[] b) {
+    for (int i = 0; i < a.length; i++) {
+        a[i] += b[b.length - 1 - i];
+    }
 }
 
 public static int mystery(int x, int y) {
