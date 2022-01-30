@@ -7,7 +7,7 @@ import java.io.IOException;
 public class WordLists {
 
 
-   public static final String DIRECTORY = "/workspaces/Tiger22/studentWork/Wordle/"
+   public static final String DIRECTORY = "/workspaces/Tiger22/studentWork/Wordle/";
 
    //////////////////////////////////////////////////////////////////////
    /*                                                                  */
