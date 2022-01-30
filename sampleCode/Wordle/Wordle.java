@@ -8,6 +8,8 @@ public class Wordle {
    public static void playWordleGame() {
       // Plays a game of wordle (see https://www.powerlanguage.co.uk/wordle/)
       
+      System.out.println("There are " + WordLists.TARGETS.size() + " possible targets");
+      
       String target = getRandomTarget();
       
       for (int i = 1; i <= 6; i++) {
