@@ -27,6 +27,8 @@ public class Wordle {
             printGuessFeedback(guess, target);
          }
       }
+      
+      System.out.println("You ran out of guesses. The target word was " + target);
    }
    
    public static String getRandomTarget() {
