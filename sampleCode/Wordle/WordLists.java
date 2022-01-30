@@ -4,21 +4,25 @@ import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 
-//////////////////////////////////////////////////////////////////////
-/*                                                                  */
-/*                                                                  */
-/*                                                                  */
-/*                                                                  */
-/*                                                                  */
-/*                     DO NOT MODIFY THIS FILE                      */
-/*                                                                  */
-/*                                                                  */
-/*                                                                  */
-/*                                                                  */
-/*                                                                  */
-//////////////////////////////////////////////////////////////////////
-
 public class WordLists {
+
+
+   public static final String DIRECTORY = "/workspaces/Tiger22/studentWork/Wordle/"
+
+   //////////////////////////////////////////////////////////////////////
+   /*                                                                  */
+   /*                                                                  */
+   /*                                                                  */
+   /*                                                                  */
+   /*                                                                  */
+   /*                   DO NOT MODIFY BELOW THIS BOX                   */
+   /*                                                                  */
+   /*                                                                  */
+   /*                                                                  */
+   /*                                                                  */
+   /*                                                                  */
+   //////////////////////////////////////////////////////////////////////
+
    public static final ArrayList<String> WORDS = new ArrayList<String>();
    public static final ArrayList<String> TARGETS = new ArrayList<String>();
    
@@ -39,7 +43,7 @@ public class WordLists {
    }
    
    static {
-      loadFile(WORDS, "words.txt");
-      loadFile(TARGETS, "targets.txt");
+      loadFile(WORDS, DIRECTORY + "words.txt");
+      loadFile(TARGETS, DIRECTORY + "targets.txt");
    }
 }
