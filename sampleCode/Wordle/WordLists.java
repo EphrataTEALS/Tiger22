@@ -27,6 +27,7 @@ public class WordLists {
    public static final ArrayList<String> TARGETS = new ArrayList<String>();
    
    public static void loadFile(ArrayList<String> list, String filepath) {
+      // System.out.println("Working Directory = " + System.getProperty("user.dir"));
       BufferedReader reader;
       try {
          reader = new BufferedReader(new FileReader(filepath));
