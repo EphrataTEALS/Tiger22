@@ -22,30 +22,30 @@ public class Card {
 	 * int value that holds the point value.
 	 */
 	private int pointValue;
-   
-   /**
-    * Sets this <code>Card's</code> suit.
-    * @param s the new suit 
-    */
-   public void setSuit(String s) {
-   	/* *** TO BE IMPLEMENTED IN ACTIVITY 1 *** */
-   }
-   
-   /**
-    * Sets this <code>Card's</code> rank.
-    * @param r the new rank 
-    */
-   public void setRank(String r) {
-   	/* *** TO BE IMPLEMENTED IN ACTIVITY 1 *** */
-   }
-   
-   /**
-    * Sets this <code>Card's</code> point value.
-    * @param pv the new point value
-    */
-   public void setPointValue(int pv) {
-   	/* *** TO BE IMPLEMENTED IN ACTIVITY 1 *** */
-   }
+
+	/**
+	 * Sets this <code>Card's</code> suit.
+	 * @param s the new suit 
+	 */
+	public void setSuit(String s) {
+	 /* *** TO BE IMPLEMENTED IN ACTIVITY 1 *** */
+	}
+
+	/**
+	 * Sets this <code>Card's</code> rank.
+	 * @param r the new rank 
+	 */
+	public void setRank(String r) {
+	 /* *** TO BE IMPLEMENTED IN ACTIVITY 1 *** */
+	}
+
+	/**
+	 * Sets this <code>Card's</code> point value.
+	 * @param pv the new point value
+	 */
+	public void setPointValue(int pv) {
+	 /* *** TO BE IMPLEMENTED IN ACTIVITY 1 *** */
+	}
 
 	/**
 	 * Accesses this <code>Card's</code> suit.
@@ -53,7 +53,7 @@ public class Card {
 	 */
 	public String getSuit() {
 		/* *** TO BE IMPLEMENTED IN ACTIVITY 1 *** */
-   }
+	}
 
 	/**
 	 * Accesses this <code>Card's</code> rank.
@@ -63,7 +63,7 @@ public class Card {
 		/* *** TO BE IMPLEMENTED IN ACTIVITY 1 *** */
 	}
 
-   /**
+	/**
 	 * Accesses this <code>Card's</code> point value.
 	 * @return this <code>Card's</code> point value.
 	 */
