@@ -12,7 +12,7 @@ class ElevensConsoleRunner {
       Scanner scan = new Scanner(System.in);
       
       while(board.anotherPlayIsPossible() && !board.gameIsWon()) {
-         step(board);
+         step(scan, board);
       }
       
 		if (board.isEmpty()) {
@@ -22,7 +22,7 @@ class ElevensConsoleRunner {
 		}
    }
    
-   public static void step(ElevensBoard board) {
+   public static void step(Scanner scan, ElevensBoard board) {
       System.out.println("Current board:");
       System.out.println(board);
       
