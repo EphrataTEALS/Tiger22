@@ -6,6 +6,6 @@ public class Fish extends Animal {
    }
    
    public void move() {
-      System.out.println("Zoom, I just swam " + topSpeedMPH + " miles in the last hour.");
+      System.out.println("Blub, I just swam " + topSpeedMPH + " miles in the last hour.");
    }
 }
