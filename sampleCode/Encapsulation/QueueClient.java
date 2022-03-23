@@ -4,8 +4,8 @@ public class QueueClient {
 
     public static void main(String[] args) {
 
-        DoQueueOperations();
-        // DoQueueSafeOperations();
+        // DoQueueOperations();
+        DoQueueSafeOperations();
     }
 
     public static void DoQueueOperations() {
