@@ -23,6 +23,15 @@ public class CellPhone {
       return version;
    }
    
+   public String toString() {
+      /*
+       * TODO (Step 1): Complete this method.
+       * When you print a cell phone, it should be formatted like the following example:
+       *
+       *    "Jim's CellPhone(iPhone 11)"
+       */
+      return "";
+   }
    
    public boolean equals(Object obj) {
       /*
@@ -36,16 +45,6 @@ public class CellPhone {
        *    CellPhone objAsCellPhone = (CellPhone) obj;
        */
       return false;
-   }
-   
-   public String toString() {
-      /*
-       * TODO (Step 1): Complete this method.
-       * When you print a cell phone, it should be formatted like the following example:
-       *
-       *    "Jim's CellPhone(iPhone 11)"
-       */
-      return "";
    }
    
    public void sendText(CellPhone receiver) {
