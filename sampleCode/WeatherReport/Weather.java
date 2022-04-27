@@ -90,7 +90,7 @@ public class Weather {
          * For example, if there were two stations (Ephrata and Seattle), the output could look like
          *
          * Ephrata: 49, 62, 59, 56, 54
-      * Seattle: 48, 50, 61, 58, 47
+         * Seattle: 48, 50, 61, 58, 47
          */
          
         // replace this line with your complete code
