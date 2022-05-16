@@ -21,14 +21,19 @@ public class StringReverser {
         
         String rest = inputString.substring(1);
         
-        System.out.println(indent + "the first character is " + firstChar + " and the rest of the string is " + rest);
+        System.out.println(indent + "when reversing " + inputString + ", the first character is " + firstChar + " and the rest of the string is " + rest);
         scan.nextLine();
         
         String reversedRest = reverse(rest, indent + "  ", scan);
         
-        System.out.println(indent + "the reversed rest of the string is " + reversedRest);
+        System.out.println(indent + "when reversing " + inputString + ", the reversed rest of the string is " + reversedRest);
         scan.nextLine();
         
-        return reversedRest + firstChar;
+        String result = reversedRest + firstChar;
+        
+        System.out.println(indent + "the reversed version of " + inputString + " is " + result);
+        scan.nextLine();
+        
+        return result;
     }
 }
