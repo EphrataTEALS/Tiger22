@@ -1,7 +1,13 @@
 {
     "java.project.sourcePaths": [
+<<<<<<< HEAD
         "sampleCode/Poly",
         "sampleCode/Arrays",
         "sampleCode/Recursion"
+=======
+        "sampleCode/Inheritance",
+        "sampleCode/ElevensLab/Activity2",
+        "sampleCode/Trio"
+>>>>>>> 6b6a357e715aa2e822ac5551d81d38911a17cbcf
     ]
 }

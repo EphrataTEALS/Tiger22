@@ -5,12 +5,12 @@ public class EqualsDemo {
         String b = "zz";
         String c = b;
 
-        // System.out.println(a == b);
+        System.out.println(a == b);
 
-        // System.out.println(c == b);
+        System.out.println(c == b);
 
-        // System.out.println(a.equals(b));
+        System.out.println(a.equals(b));
 
-        // System.out.println(c.equals(b));
+        System.out.println(c.equals(b));
     }
 }

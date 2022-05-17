@@ -7,9 +7,10 @@ public class Student {
         this.age = age;
     }
 
-    // public boolean equals(Object o) {
-    //     Student other = (Student) o;
-    // }
+    public boolean equals(Object o) {
+        Student other = (Student) o;
+        return this.name.equals(other.name) && this.age == other.age;
+    }
 
     public static void main(String[] args) {
         Student alice = new Student("alice", 15);
