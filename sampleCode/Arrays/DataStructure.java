@@ -1,4 +1,4 @@
-package sampleCode.Arrays;
+//package sampleCode.Arrays;
 
 import java.util.Arrays;
 
@@ -35,11 +35,11 @@ public class DataStructure {
         System.out.println("daysOfWeek array populated: " + Arrays.toString(daysOfWeek));
 
 
-        for (int i = 0; i < numbers.length; i++) {
-            numbers[i] = (i+1)*2;
-        }
-
-        System.out.println("numbers arrary is now: " + Arrays.toString(numbers));
+        int[] numbers3 = {17,27,35,41,59};
+        //for (int i = 0; i < numbers3.length; i++) {
+        //    numbers3[i] = numbers3[i]*2;
+        //}
+        System.out.println("numbers3 arrary values: " + Arrays.toString(numbers3));
 
 
         // Access an array
